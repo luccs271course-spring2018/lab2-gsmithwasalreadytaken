@@ -1,0 +1,25 @@
+# What is the complexity of each of the four search methods in terms of array or list size n?
+
+-findTeamPosition & findTeamMinFunding are O(n) because they conduct a Linear Search, starting at 1 and counting down the line.
+-findTeamMinFundingFast uses a Binary Search which is O(log n). It starts in the middle and eliminates half of the values until it finds the desired value.
+
+
+# What happens in the case of binary search if the array is not sorted?
+
+- The Binary Search wouldn't work. The Binary Search works under the pretense that the desired value is order within the array.
+- Starting in the middle
+
+# What is the purpose of constructor argument validity checking?
+
+- It is supposed to spot errors early on because they might be harder to find when the code is more developed.
+
+
+# What is the purpose of using the keyword `final` with variables and arguments?
+
+- 'final' means the variable can't be modified anymore. There will be a compiler error if someone tries anyway.
+
+
+# What are alternatives to using `Optional` and how do they compare?
+
+- Conditional Statements and Return Values can be an alternative for Optional if all scenarios have numbers within them. 
+-Otherwise, Optional is useful because it can function while 'null' is returned.
